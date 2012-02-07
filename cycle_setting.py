@@ -1,16 +1,22 @@
 import sublime, sublime_plugin
 
 class CycleSettingCommand( sublime_plugin.TextCommand ):
-  
+
   def run( self, edit, setting, options ):
 
     options = list( set( options ) )
-      
+
+    index = len( options )
+
+    if not index :
+
+      return
+
+
     settings = self.view.settings()
 
     value = settings.get( setting )
 
-    index = len( options )
 
     if value in options :
 
