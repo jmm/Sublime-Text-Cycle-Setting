@@ -1,0 +1,18 @@
+
+
+  {
+
+    "keys" : [ "ctrl+k", "ctrl+i" ],
+
+    "command" : "cycle_setting",
+
+    "args" : {
+
+      "setting" : "draw_white_space",
+
+      "options" : [ "none", "selection", "all" ]
+
+    }
+
+  }
+
