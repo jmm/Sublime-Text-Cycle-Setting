@@ -37,5 +37,11 @@ class CycleSettingCommand( sublime_plugin.TextCommand ):
     settings.set( setting, value )
 
 
-    self.view.set_status( 'cycle_setting', "Setting '{setting}' cycled to value '{value}'".format( **locals() ) )
+    self.view.set_status(
+
+      'cycle_setting',
+
+      "Setting '{setting}' cycled to value '{value}'".format( **locals() )
+
+    )
     
