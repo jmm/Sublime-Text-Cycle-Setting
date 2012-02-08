@@ -1,10 +1,25 @@
-Adds a command that can be called from a key binding to toggle or cycle through values for a non-boolean setting.
+Cycle Setting plugin for Sublime Text 2.
+Copyright 2011 Jesse McCarthy <http://jessemccarthy.net/>.
 
-There are 'set_setting' and 'toggle_setting' commands built in to Sublime Text 2 that can be called from key bindings.  But, as far as I can tell, 'toggle_setting' only works for boolean settings, such as 'word_wrap'.
+Adds a command that can be called from a key binding to toggle or
+cycle through values for a non-boolean setting.
 
-This plugin adds a 'cycle_setting' command that can cycle through several values for a setting, or toggle between two for a non-boolean setting.  An example setting is 'draw_white_space'.  'cycle_setting' can be used to cycle through the values 'none', 'selection', and 'all', or toggle between two, such as 'none' and 'all'.
+The Software may be used under the MIT (aka X11) license or Simplified
+BSD (aka FreeBSD) license.  See LICENSE
 
-Currently this changes the setting for the current buffer, like the built in 'set_setting' and 'toggle_setting'.
+There are 'set_setting' and 'toggle_setting' commands built in to
+Sublime Text 2 that can be called from key bindings.  But, as far as I
+can tell, 'toggle_setting' only works for boolean settings, such as
+'word_wrap'.
+
+This plugin adds a 'cycle_setting' command that can cycle through
+several values for a setting, or toggle between two for a non-boolean
+setting.  An example setting is 'draw_white_space'.  'cycle_setting'
+can be used to cycle through the values 'none', 'selection', and
+'all', or toggle between two, such as 'none' and 'all'.
+
+Currently this changes the setting for the current buffer, like the
+built in 'set_setting' and 'toggle_setting'.
 
 
 USAGE:
@@ -15,12 +30,16 @@ Set 'command' to 'cycle_setting'.
 
 Set 'args.setting' to the desired setting.
 
-Set 'args.options' to a list of the setting values you want to cycle through.
+Set 'args.options' to a list of the setting values you want to cycle
+through.
 
 
 TO DO:
 
-* Figure out a way to skip this code if a built in command of the same name, and especially with the same features, is introduced.
+* Figure out a way to skip this code if a built in command of the same
+* name, and especially with the same features, is introduced.
 
-* Figure out if some settings have enumerated values that I can read in the plugin, in case the user would just like to cycle through all available options.
+* Figure out if some settings have enumerated values that I can read
+* in the plugin, in case the user would just like to cycle through all
+* available options.
 
