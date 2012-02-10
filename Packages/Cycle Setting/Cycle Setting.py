@@ -19,8 +19,6 @@ class CycleSettingCommand( sublime_plugin.TextCommand ):
 
     """Cycle $setting to next of $options"""
 
-    options = list( set( options ) )
-
     index = len( options )
 
     if not index :
