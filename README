@@ -1,5 +1,5 @@
 Cycle Setting plugin for Sublime Text 2.
-Copyright 2011 Jesse McCarthy <http://jessemccarthy.net/>.
+Copyright 2012 Jesse McCarthy <http://jessemccarthy.net/>.
 
 Adds a command that can be called from a key binding to toggle or
 cycle through values for a non-boolean setting.
