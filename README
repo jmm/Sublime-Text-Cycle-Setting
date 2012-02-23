@@ -24,7 +24,7 @@ built in 'set_setting' and 'toggle_setting'.
 
 USAGE:
 
-See sample.sublime-keymap for an example.
+See the sample sublime-keymap file for an example.
 
 Set 'command' to 'cycle_setting'.
 
